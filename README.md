@@ -13,20 +13,13 @@ To run this application on your local machine, follow these steps:
 
 Clone the Repository: Start by cloning this repository to your local machine using the following command:
 
-bash
-Copy code
 > git clone https://github.com/Henrique-Moreno/auth-clerk-server.git
 Navigate to the App Folder: Move to the "app" folder, where the frontend of the application is located:
 
-bash
-Copy code
 cd your-repo/app
 Install Dependencies: Install the required dependencies using npm or yarn:
 
-arduino
-Copy code
 npm install
-# or
 yarn install
 Configure Clerk:
 
@@ -34,17 +27,7 @@ Create an account on Clerk if you haven't already.
 Set up your Clerk application and note down your API keys and other necessary configuration details.
 Environment Variables: Create a .env.local file in the "app" folder and add the following environment variables:
 
-makefile
-Copy code
-NEXT_PUBLIC_CLERK_FRONTEND_API_KEY=your-clerk-frontend-api-key
-CLERK_API_KEY=your-clerk-api-key
-CLERK_API_URL=your-clerk-api-url
-Run the Application: After setting up Clerk and environment variables, you can start the development server:
-
-arduino
-Copy code
 npm run dev
-# or
 yarn dev
 Access the Application: Open your web browser and navigate to http://localhost:3000 to access the running application.
 
